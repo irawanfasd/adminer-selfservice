@@ -1,0 +1,21 @@
+# Secrets
+.env
+*.env
+!.env.example
+!env.example
+*password*
+*secret*
+
+# Backup
+*.bak
+*.bak-*
+*.tar.gz
+*.zip
+
+# Adminer binary (download ulang via INSTALL)
+php/index.php
+
+# System
+.DS_Store
+Thumbs.db
+*.log
